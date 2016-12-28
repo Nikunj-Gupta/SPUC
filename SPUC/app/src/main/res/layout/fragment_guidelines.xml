@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Each type of vehicle has a threshold CO% value. The app gives the values of CO% when you stop the vehicle engine. When the value is more than the threshold, the vehicle needs to be serviced. If the servicing is not done within 7 days, a fine of Rs.1000 is levied on the user. "
+        android:id="@+id/guide_text"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.78" />
+</LinearLayout>
